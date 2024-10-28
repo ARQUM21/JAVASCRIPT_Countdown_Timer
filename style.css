@@ -41,6 +41,12 @@ body {
     -webkit-text-fill-color: transparent;
     animation: animate-gradient 4.5s linear infinite;
 }
+@keyframes animate-gradient {
+    to {
+        background-position: 200%;
+    }
+}
+
 
 .description {  /* Description text */
     color: #F7C566;
